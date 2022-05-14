@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page Title -->
+    <title>MegaOne - Studio</title>
+    <!-- Favicon -->
+
+    <!-- Bundle -->
+    <link rel="stylesheet" href="static/css/bundle.min.css">
+    <link rel="stylesheet" href="static/css/revolution-settings.min.css">
+    <!-- Plugin Css -->
+    <link rel="stylesheet" href="static/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/cubeportfolio.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: rgb(159, 124, 247);
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 14px;
+            padding: 8px;
+            width: 80px;
+            height: 50px;
+            transition: all 0.5s;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        .button span {
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: 'w';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: l;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="centrize full-width">
+            <div class="vertical-center">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!--Header Start-->
+<header>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <div class="container">
+            <a href="#home" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <img src="static/picture/logo.png" alt="logo" class="logo-dark">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="megaone">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active scroll" href="myindex.html">主页</a>
+                    <a class="nav-link scroll" href="#about">关于</a>
+                    <a class="nav-link scroll" href="#blog">博客</a>
+                    <a class="nav-link scroll" href="#client">评价</a>
+                    <a class="nav-link scroll" href="#contact">联系我们</a>
+                </div>
+            </div>
+
+            <!--Side Menu Button-->
+            <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active scroll" href="F:\彼岸OS\紫色\moban6604\myindex.html">主页</a></li>
+                    <li class="nav-item"><a class="nav-link scroll" href="#about">关于</a></li>
+                    <li class="nav-item"><a class="nav-link scroll" href="#blog">博客</a></li>
+                    <li class="nav-item"><a class="nav-link scroll" href="#client">评价</a></li>
+                    <li class="nav-item"><a class="nav-link scroll" href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+
+</header>
+<!--Header End-->    
+
+                <!--Side Menu Button-->
+                <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+        </nav>
+
+        <!--Side Nav-->
+        <div class="side-menu hidden">
+            <div class="inner-wrapper">
+                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+                <nav class="side-nav w-100">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#portfolio">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#client">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="side-footer text-white w-100">
+                    <ul class="social-icons-simple">
+                        <li><a class="facebook-text-hvr" href="javascript:void(0)"><i class="fab fa-facebook-f"></i>
+                            </a> </li>
+                        <li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i>
+                            </a> </li>
+                        <li><a class="twitter-text-hvr" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <a id="close_side_menu" href="javascript:void(0);"></a>
+        <!-- End side menu -->
+
+    </header>
+    <!--Header End-->
+
+    
+    <!--Banner Start-->
+    <section class="page-title cursor-light">
+        <div class="bg-overlay bg-black opacity-5"></div>
+        <div class="container">
+            <h2 class="hide-cursor">蓝·海·遨·游</h2>
+            <ul class="page-breadcrumb link">
+                <li><a href="F:\彼岸OS\紫色\moban6604\myindex.html"><span class="icon fas fa-home"></span> 主页</a></li>
+                <li>蓝海</li>
+            </ul>
+        </div>
+    </section>
+    <!--Banner End-->
+
+    <!--Blog Start-->
+    <section class="blog-single">
+        <h2 class="d-none">hidden</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!--Post-->
+                    <article class="blog-classic">
+                        <!--Thumbnail-->
+                        <div class="post-thumbnail">
+                            <img src="static/picture/news-1.jpg" alt="image">
+                        </div>
+                        <!--Post Meta-->
+                        <div class="post-details alt-font">
+
+                            <span class="post-categories">
+                                <a href="javascript:void(0);" rel="category tag">点赞</a>
+                                <a href="javascript:void(0);" rel="category tag">收藏</a>
+                            </span>
+
+                            <span class="post-author">By <a href="javascript:void(0);">彼岸OS官方 </a></span>
+                            <span class="post-separator">/</span>
+                            <span class="post-date">On Apri 24, 2022</span>
+
+                        </div>
+
+                        <h2 class="post-title"><a href="javascript:void(0);" rel="bookmark">备战过程中感觉焦虑！别怕，这几招来帮你</a></h2>
+
+                        <div class="post-content">
+                            <!-- <blockquote class="block-quote">
+                                <p> 学好英语，学好英语，学好英语</p><cite> </cite>
+                            </blockquote> -->
+                            <p class="mb-5">
+                                “月亮的冥想”
+
+
+                                睡觉前躺在床上，双手放在身体两侧，闭上眼睛，深呼吸。吸气时，想象气息来自最遥远的天边，经鼻腔进入胸腔、腹部，双腿，最后从脚底慢慢呼出，进入大地深处。做10组深呼吸后，想象有一轮圆月正在慢慢地随着自己的呼吸沉入大地。与此同时，想象自己的身体和月亮一样，慢慢下沉，像月亮沉入大地一样，沉入最纯净的黑暗，体会那种被纯粹的黑所包裹的放松感觉。
+                            </p>
+
+                            <p>
+                                “太阳的冥想”
+
+
+                                早上起床之后，身体坐直，双手搭在双腿上，闭上眼睛，深呼吸。吸气时，想象自己的脚心从大地获取能量，气息带着能量从脚底往上走，经过双腿、腹部、腰部、背部、肩部，来到大脑，最后从头顶呼出，进入苍穹。做10组深呼吸后，想象有一轮太阳，散发着温暖的光芒，照亮了头脑中每一个角落。想象大脑前部、两侧、后部，以及内部组织逐渐被温暖的阳光照亮。
+                            </p>
+
+                            <p>“喉式呼吸”
+
+
+                                在呼吸时，把注意力放在喉部，有意识地让喉部略微收紧。吸气时感觉气息冲击着咽喉壁，空气通过咽喉后面进入身体。呼气时同样用喉咙部位去呼气，这时能听到类似于嘶嘶的声音，这表示喉咙的声门是缩窄的，气息是摩擦着咽喉壁出来的。突然紧张时，做10个或20个“喉式呼吸”，对于迅速放松非常有帮助。
+                            </p>
+
+                            <p>
+                                “腹式呼吸”
+
+
+                                找一个舒适的姿势坐好，两只手放在腹部，注意先缓慢的呼气，感觉肺部有足够的空间进行深呼吸。用鼻子缓慢地进行吸气，直到无法再吸入为止，停留3~5秒。再用嘴巴缓慢地把气体呼出，在呼气时心中暗示所有的烦恼压力随着污浊的废气都被呼出了，身体在慢慢地变轻松。同时在吸气时感觉腹部的逐渐隆起，呼气时感觉腹部的逐渐放松，尽可能保证呼吸的平缓和稳定。以上动作重复3~5次就可以体会到放松的效果。
+                            </p>
+
+                            <p>
+                                “蝴蝶拍”
+
+
+                                让自己坐在一个安全的地方，双手交叉在胸前，轻抱自己对侧的肩膀，双手交替轻拍自己的肩膀，左右各拍一次为一轮，用自己感觉舒服的力度去拍，以时钟的秒“滴答滴答”为轻拍的速度和节奏，一般8~12轮为一组。尽量保持慢慢、平稳的呼吸，面带微笑，默念“我现在是安全”的，感受自己和周围环境的联结。过程中允许自己的头脑中自然浮现的各种感受、想法、情境以及身体的各种感觉，让其自然而然的发生。拍完一组后停下来，做一次深呼吸，感受当下的体验和安全感。可以重复上述过程2-3组。
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <!--Post Navigation-->
+                    <div class="post-navigation alt-font">
+                        <div class="row d-flex align-items-center">
+
+                            <div class="col-6">
+                                <div class="post-previous">
+                                    <a href="javascript:void(0);"
+                                        class="single-post-nav left d-flex align-items-center">
+                                        <i class="fa fa-angle-left"></i>
+                                        <div class="post-nav-content">
+                                            <p>Previous Post</p>
+                                            <h6>每天五分钟，学会分析长难句</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="post-next">
+                                    <a href="javascript:void(0);"
+                                        class="single-post-nav right d-flex align-items-center">
+                                        <div class="post-nav-content">
+                                            <p>Next Post</p>
+                                            <h6>如何在两个月内拿下考研政治</h6>
+                                        </div>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Author-->
+                    <div class="studio-author">
+                        <div class="author-avatar">
+                            <img alt="image" src="static/picture/author.jpg" class="avatar">
+                        </div>
+                        <div class="author-content">
+                            <span class="text-small">Written By</span>
+                            <h6><a href="javascript:void(0);">彼岸OS官方</a></h6>
+                            <div class="author-description">
+                                <p>彼岸OS祝愿每个小宝宝都能成功上岸</p>
+                                <button class="button"><span>私信</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Comment Area-->
+                    <div class="comments-area blog-comment" id="comments">
+                        <div class="comment-form-title alt-font">
+                            <span class="text-outside-line-full">Write a comment </span>
+                        </div>
+                        <form action="/" method="post" id="commentform" class="comment-form blog-comment-form"
+                            novalidate="">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <input id="author" placeholder="姓名" class="input-field comment-fields" name="author"
+                                        type="text" value="">
+                                </div>
+                                <div class="col-lg-4">
+                                    <input id="email" placeholder="学号" class="input-field comment-fields" name="email"
+                                        type="email" value="">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea id="comment" placeholder="写下你的想法..." rows="8"
+                                        class="input-field comment-fields" name="comment"
+                                        required="required"></textarea>
+                                    <a href="javascript:void(0);" type="submit" id="submit_btn"
+                                        class="btn btn-large btn-rounded btn-purple d-block">Send Message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="studio-widget" id="secondary" role="complementary">
+
+                        <!--Search Form-->
+                        <aside class="widget widget_search">
+                            <form method="get" id="searchform" action="javascript:void(0);" role="search">
+                                <label class="sr-only" for="s">Search</label>
+                                <div class="input-group">
+                                    <input class="field form-control" id="s" name="s" type="text" placeholder="Search …"
+                                        value="">
+                                    <span class="input-group-append">
+                                        <button class="submit btn-search" id="searchsubmit" name="submit"
+                                            type="submit"><i class="fas fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </aside>
+
+                        <!--Categories-->
+                        <aside class="widget widget_categories">
+                            <h3 class="widget-title">热门帖子</h3>
+                            <ul>
+                                <li class="cat-item"><a href="javascript:void(0);">学术型or专业型</a> <span
+                                        class="dots"></span><span class="counts">彼岸</span></li>
+                                <li class="cat-item"><a href="javascript:void(0);">考研新手必看常识</a> <span
+                                        class="dots"></span><span class="counts">彼岸</span></li>
+                                <li class="cat-item"><a href="javascript:void(0);">复习计划参考</a> <span
+                                        class="dots"></span><span class="counts">彼岸</span></li>
+                                <li class="cat-item"><a href="javascript:void(0);">各专业初试介绍</a> <span
+                                        class="dots"></span><span class="counts">彼岸</span></li>
+                                <li class="cat-item"><a href="javascript:void(0);">考研复试必备面试技巧</a> <span
+                                        class="dots"></span><span class="counts">彼岸</span></li>
+                            </ul>
+                        </aside>
+
+                        <aside class="widget latest_post_widget">
+                            <h3 class="widget-title">今日必读</h3>
+                            <ul class="blog-latest-post">
+                                <!--Recent Post-->
+                                <li>
+                                    <figure><a href="javascript:void(0);">
+                                            <img width="150" height="150" src="static/picture/news-1-150x150.jpg"
+                                                class="attachment-thumbnail" alt="image">
+                                        </a></figure>
+                                    <div class="post-head"><a class="title"
+                                            href="javascript:void(0);">如何在两个月内拿下考研政治</a><span
+                                            class="clearfix"></span>April 24, 2022 | by <a
+                                            href="javascript:void(0);">王学姐 / PKU</a></div>
+                                </li>
+                                <!--Recent Post-->
+                                <li>
+                                    <figure><a href="javascript:void(0);">
+                                            <img width="150" height="150" src="static/picture/news-2-150x150.jpg"
+                                                class="attachment-thumbnail" alt="image">
+                                        </a></figure>
+                                    <div class="post-head"><a class="title"
+                                            href="javascript:void(0);">每天五分钟，学会分析长难句</a><span
+                                            class="clearfix"></span>April 24, 2022 | by <a
+                                            href="javascript:void(0);">李学长 / USTC</a></div>
+                                </li>
+                                <!--Recent Post-->
+                                <li>
+                                    <figure><a href="javascript:void(0);">
+                                            <img width="150" height="150" src="static/picture/news-3-150x150.jpg"
+                                                class="attachment-thumbnail" alt="image">
+                                        </a></figure>
+                                    <div class="post-head"><a class="title"
+                                            href="javascript:void(0);">备战过程中感觉焦虑！别怕，这几招来帮你</a><span
+                                            class="clearfix"></span>April 24, 2022 | by <a
+                                            href="javascript:void(0);">张学姐 / HFUT</a></div>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <aside id="archives-2" class="widget widget_archive">
+                            <h3 class="widget-title">最新话题</h3>
+                            <ul>
+                                <li><a href="javascript:void(0);">2022考研日历</a>&nbsp;<span class="dots"></span><span
+                                        class="counts">1</span></li>
+                                <li><a href="javascript:void(0);">逆袭985，双非学子上岸经历</a>&nbsp;<span
+                                        class="dots"></span><span class="counts">2</span></li>
+                                <li><a href="javascript:void(0);">初试第三，复试总成绩第一上岸南大经验</a>&nbsp;<span
+                                        class="dots"></span><span class="counts">3</span></li>
+                                <li><a href="javascript:void(0);">跨考金融专硕如何准备</a>&nbsp;<span class="dots"></span><span
+                                        class="counts">4</span></li>
+                                <li><a href="javascript:void(0);">历年英语常考固定搭配（一）</a>&nbsp;<span class="dots"></span><span
+                                        class="counts">5</span></li>
+                                <li><a href="javascript:void(0);">数一专题复习</a>&nbsp;<span class="dots"></span><span
+                                        class="counts">6</span></li>
+                            </ul>
+                        </aside>
+                        <aside class="widget widget_media_image"><a href="javascript:void(0);"><img
+                                    src="static/picture/advertisment.jpg" class="add-image" alt="image"></a></aside>
+                    </div><!-- #secondary -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Blog End-->
+
+    <!--Scroll Top Start-->
+    <span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
+    <!--Scroll Top End-->
+
+    <!-- JavaScript -->
+    <script src="static/js/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="static/js/jquery.appear.js"></script>
+    <script src="static/js/jquery.fancybox.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/parallaxie.min.js"></script>
+    <script src="static/js/wow.min.js"></script>
+    <script src="static/js/jquery.cubeportfolio.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="static/js/jquery.themepunch.tools.min.js"></script>
+    <script src="static/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="static/js/revolution.extension.actions.min.js"></script>
+    <script src="static/js/revolution.extension.carousel.min.js"></script>
+    <script src="static/js/revolution.extension.kenburn.min.js"></script>
+    <script src="static/js/revolution.extension.layeranimation.min.js"></script>
+    <script src="static/js/revolution.extension.migration.min.js"></script>
+    <script src="static/js/revolution.extension.migration.min.js"></script>
+    <script src="static/js/revolution.extension.parallax.min.js"></script>
+    <script src="static/js/revolution.extension.slideanims.min.js"></script>
+    <script src="static/js/revolution.extension.video.min.js"></script>
+    <!-- custom script -->
+    <script src="static/js/script.js"></script>
+
+</body>
+
+</html>
